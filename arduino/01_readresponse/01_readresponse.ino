@@ -4,8 +4,8 @@
 const char* ssid     = "";  
 const char* password = "";
 
-const char* host     = "data.sparkfun.com";  
-String path          = "/output/SPARKFUN_PUBLIC_KEY.json";  
+const char* host     = ""; // Your domain  
+String path          = "/path/to/light.json";  
 const int pin        = 2;
 
 void setup() {  
