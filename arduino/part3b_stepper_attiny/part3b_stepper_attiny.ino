@@ -1,15 +1,16 @@
 /*
 Adafruit Arduino - Lesson 16. Stepper
+Modified to take input from ESP8266 instead of user
 */
  
 #include <Stepper.h>
  
-// Using these pins instead of pin number from Adafruit tutorial (which I commented out)
-int in1Pin = 0; //2;
-int in2Pin = 1; //3;
-int in3Pin = 2; //4;
-int in4Pin = 3; //5;
-int readPin = 4; //12;
+// NYL: changed pin number to match that in ATtiny
+int in1Pin = 0; //12;
+int in2Pin = 1; //11;
+int in3Pin = 2; //10;
+int in4Pin = 3; //9;
+int readPin = 4; //8; 
  
 Stepper motor(512, in1Pin, in2Pin, in3Pin, in4Pin);  
 
@@ -22,17 +23,15 @@ void setup()
 
   pinMode(readPin, INPUT);
   
-//  Serial.begin(115200);
   motor.setSpeed(20);
 }
  
-void loop()
+void loop() 
 {
-//  if (Serial.available()) {
-//    Serial.println(digitalRead(readPin));
-//  }
   if (digitalRead(readPin)==1) {
     motor.step(32);
   }
   delay(1000);
 }
+
+

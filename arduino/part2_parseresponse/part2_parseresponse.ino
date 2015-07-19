@@ -46,7 +46,6 @@ void loop() {
 
   // read response
   String section="header";
-
   while(client.available()){
     String line = client.readStringUntil('\r');
     // Serial.print(line);
