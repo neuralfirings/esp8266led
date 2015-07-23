@@ -1,0 +1,30 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=esp8266_attiny
+*Date=21:12:36
+*CreatedBy=Fritzing 0.9.2b.11.19.8d2d5970658f0bed09c661c9ea9a515b5f40f44c
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;21.0031;-23.4455;0;Bottom;Via1
+2;;dip;6.87914;-10.8408;180;Bottom;ATTINY
+3;;;19.2989;-10.5635;-90;Bottom;ESP
+4;;;16.8454;-4.20866;0;Bottom;Via4
+5;;;15.5167;-13.6919;0;Bottom;Via2
+6;5V;to-220-alt;34.2829;-23.8202;90;Bottom;V5
+7;3.3V;78xxl;34.3661;-5.72607;90;Bottom;V33
+8;;lte-302;27.1466;-2.93856;-90;Bottom;LED
+9;;;24.8417;-29.232;0;Bottom;TXT1
+10;;;9.15977;-0.69405;0;Bottom;TXT2
+11;9V;;20.7966;-2.30356;-90;Bottom;PWR
+12;;;9.11264;-2.30356;180;Bottom;5VDC STEPPER
+13;;;20.8618;-0.380924;0;Bottom;TXT3
+14;;THT;12.0195;-23.2924;90;Bottom;L293D
+15;;;20.6712;-4.20866;0;Bottom;Via3
